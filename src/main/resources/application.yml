@@ -1,0 +1,9 @@
+server:
+  port: 8081
+  
+keycloak:
+  auth-server-url: http://localhost:8180/auth
+  realm: demo
+  resource: springboot-keycloak
+  public-client: true
+  bearer-only: true
