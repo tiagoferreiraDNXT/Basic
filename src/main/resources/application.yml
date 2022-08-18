@@ -1,8 +1,14 @@
 server:
   port: 8081
-  
+## docker JSB
+#  port: 9090
+#  
+#  
 keycloak:
-  auth-server-url: http://localhost:8180/auth
+#Standalone
+#  auth-server-url: http://localhost:8180/auth
+# Docker
+  auth-server-url: http://localhost:8080
   realm: demo
   resource: springboot-keycloak
   public-client: true
